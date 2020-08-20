@@ -1,0 +1,36 @@
+{
+  "images": [
+    {
+      "id": "6W_w6PxUacxYggRW5vz0Y",
+      "fullSize": true,
+      "tooltipColor": "dark",
+      "tooltipPlacement": "top",
+      "tooltipText": "Tooltip text 1",
+      "url": "https://picsum.photos/500"
+    },
+    {
+      "id": "7yvx4O1SYvi2zK8yvoFl4",
+      "fullSize": true,
+      "tooltipColor": "dark",
+      "tooltipPlacement": "bottom",
+      "tooltipText": "Tooltip text 2",
+      "url": "https://picsum.photos/600/400"
+    },
+    {
+      "id": "Kea34sposgpSrARvXrh8z",
+      "fullSize": true,
+      "tooltipColor": "light",
+      "tooltipPlacement": "top",
+      "tooltipText": "Tooltip text 3",
+      "url": "https://picsum.photos/400/600"
+    },
+    {
+      "id": "MF15RmDZg2zg5Sszzgc1D",
+      "fullSize": true,
+      "tooltipColor": "light",
+      "tooltipPlacement": "bottom",
+      "tooltipText": "Tooltip text 4",
+      "url": "https://picsum.photos/600"
+    }
+  ]
+}

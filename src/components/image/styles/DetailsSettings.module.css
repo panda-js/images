@@ -1,0 +1,22 @@
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.button {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.notice {
+  font-size: 12px;
+  color: #888686;
+}
+
+@media (min-width: 768px) {
+  .actions {
+    flex-wrap: nowrap;
+  }
+}

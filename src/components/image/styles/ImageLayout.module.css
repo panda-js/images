@@ -1,0 +1,27 @@
+.image {
+  background: #f3f3f3;
+  width: calc(100% - 10px);
+  height: 100vw;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.small {
+  height: 100px;
+}
+
+@media (min-width: 768px) {
+  .image {
+    width: calc(33% - 10px);
+    height: 33vw;
+    margin-right: 40px;
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .image {
+    width: 300px;
+    height: 300px;
+  }
+}
