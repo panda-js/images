@@ -1,0 +1,64 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 5px 10px;
+  border-radius: 3px;
+  word-break: break-word;
+  text-align: center;
+}
+
+/* Placements */
+.top {
+  top: 5px;
+}
+
+.bottom {
+  bottom: 5px;
+}
+
+.left {
+  left: 5px;
+}
+
+.right {
+  right: 5px;
+}
+
+.topStart {
+  composes: top;
+  composes: left;
+}
+
+.topEnd {
+  composes: top;
+  composes: right;
+}
+
+.bottomStart {
+  composes: bottom;
+  composes: left;
+}
+
+.bottomEnd {
+  composes: bottom;
+  composes: right;
+}
+
+/* Color modes */
+.dark {
+  background: #000;
+  color: #fff;
+}
+
+.light {
+  background: #fff;
+  color: #000;
+}

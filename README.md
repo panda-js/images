@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## To stub back-end use json-server
+
+Install JSON Server
+
+### `npm install -g json-server`
+
+and run
+
+### `json-server -p 3001 db.json`
+
+https://github.com/typicode/json-server
+
 ## Available Scripts
 
 In the project directory, you can run:

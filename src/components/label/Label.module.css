@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.inline {
+  flex-wrap: nowrap;
+}
+
+.base {
+  display: flex;
+  align-items: center;
+  min-height: 35px;
+  width: 100%;
+}
+
+.text {
+  composes: base;
+  padding-right: 10px;
+}
+
+.input {
+  composes: base;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-wrap: nowrap;
+  }
+
+  .text {
+    width: 30%;
+    flex-shrink: 0;
+  }
+}

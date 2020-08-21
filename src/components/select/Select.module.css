@@ -1,0 +1,11 @@
+.select {
+  border: 1px solid #ccc;
+  background: none;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+}
+
+.select:focus {
+  border-color: #f5a72a;
+}

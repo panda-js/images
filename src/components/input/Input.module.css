@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-basis: 100%;
+  position: relative;
+}
+
+.input {
+  border: 1px solid #ccc;
+  background: none;
+  padding: 10px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #f5a72a;
+}
+
+.text {
+  width: 100%;
+}
+
+.checkbox {
+}
+
+.file {
+  width: 100%;
+}
+
+.withError {
+  margin-top: 15px;
+}
+
+.error {
+  font-size: 12px;
+  color: #e42b2b;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
